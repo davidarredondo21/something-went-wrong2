@@ -1,0 +1,103 @@
+*{
+font-family: 'Heebo', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body{
+    background-size: cover;
+    background-image: url('forest.jpg') no-repeat;
+  
+    background-position: center;
+}
+
+
+
+
+.header{
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.header{
+    display: flex;
+   position: fixed;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .1);
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 15px;
+
+
+}
+
+
+
+.container01__image{
+    background-attachment: fixed;
+    background-image: url('forest.jpg');
+    background-size: 100px 200px;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 100px;
+    color: white;
+    margin: 50px;
+
+
+}
+
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media  (max-width: 790px)  {
+    .header{
+        padding: 1.3rem;
+
+
+    }
+    
+    
+}
+
+
+.image01, .button01{
+float: inline-end;
+
+}
+
+  
